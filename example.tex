@@ -1,0 +1,35 @@
+\documentclass[a4paper]{article}
+\usepackage{CJK}
+\usepackage{geometry}
+\usepackage[utf8]{inputenc}
+
+\newcommand{\chemequal}[1]{\raisebox{0.5ex}{$\stackrel{\mbox{\scriptsize #1}}{\stackrel{\rule{10mm}{.1pt}}{\rule{10mm}{.1pt}}}$}}
+\renewcommand{\uparrow}[0]{\raisebox{0pt}{↑}}
+\renewcommand{\downarrow}[0]{\raisebox{-1pt}{↓}}
+\renewcommand{\triangle}[0]{△}
+
+\geometry{top=2.5cm,bottom=2.5cm,left=2.0cm,right=2.0cm}
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\fontsize{12pt}{20pt}\selectfont
+
+\begin{CJK*}{UTF8}{gbsn}
+  Na$_2$SO$_4$ + BaCl$_2$ \chemequal{} BaSO$_4$\downarrow + 2NaCl \\
+  2CuO + C \chemequal{高温} 2Cu + CO$_2$\uparrow \\
+  CaCl$_2$ + Na$_2$CO$_3$ \chemequal{} CaCO$_3$\downarrow + 2NaCl \\
+  4Na + O$_2$ \chemequal{} 2Na$_2$O \\
+  2Na + O$_2$ \chemequal{\triangle} Na$_2$O$_2$ \\
+  2Na + 2H$_2$O \chemequal{} 2NaOH + H$_2$\uparrow \\
+  3Fe + 4H$_2$O(g) \chemequal{\triangle} Fe$_3$O$_4$ + 4H$_2$ \\
+  2Al + 2NaOH + 2H$_2$O \chemequal{} 2NaAlO$_2$ + 3H$_2$\uparrow \\
+  2Na$_2$O$_2$ + 2H$_2$O \chemequal{} 4NaOH + O$_2$\uparrow \\
+  2Na$_2$O$_2$ + 2CO$_2$ \chemequal{} 2Na$_2$CO$_3$ + O$_2$ \\
+  2NaHCO$_3$ \chemequal{\triangle} Na$_2$CO$_3$ + H$_2$O + CO$_2$\uparrow \\
+  Al$_2$O$_3$ + 6H$^+$ \chemequal{} 2Al$^{3+}$ + 3H$_2$O \\
+  Al$_2$O$_3$ + 2OH$^-$ \chemequal{} 2AlO$_2^-$ + H$_2$O
+\end{CJK*}
+
+\end{document}

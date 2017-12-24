@@ -1,0 +1,10 @@
+# Linux Backup Files
+*~
+
+# LaTeX Working Files
+*.aux
+*.log
+
+# Output Files
+*.dvi
+*.pdf
